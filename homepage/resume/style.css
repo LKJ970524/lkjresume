@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  background-color: whitesmoke;
+}
+
+header {
+  transition: all 1s ease;
+}
+
+header:hover,
+.work:hover,
+.hobby:hover,
+.edu:hover,
+footer:hover {
+  border: 10px solid black;
+  border-radius: 45%;
+}
+
+header a {
+  background: rgb(72, 72, 72);
+  padding: 15px;
+  color: cyan;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border-radius: 48%;
+  margin-right: 10px;
+  font-size: 21px;
+}
+
+.work {
+  color: #b36919;
+  transition: all 1s ease;
+}
+
+.hobby {
+  color: #554a9f;
+  transition: all 1s ease;
+}
+
+.edu {
+  color: #4e6713;
+  transition: all 1s ease;
+}
+
+footer {
+  transition: all 1s ease;
+}
+
+a {
+  transition: all 1s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  border: 10px solid lightslategray;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Caveat', sans-serif;
+  margin: 0;
+}
+
+h3,
+p,
+li {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.content-wrap .information {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(167, 9, 203);
+  margin-bottom: 100px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 40px;
+}

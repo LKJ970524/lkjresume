@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+	line-height: 1.5em;
+	margin: 0;
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 17px;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+}
+
+.testimonial-section {
+	width: 800px;
+	text-align: center;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+}
+
+.testimonial-section h1 {
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+.testimonial-section h1 span {
+	color: crimson;
+}
+
+.testimonial-pic img {
+	width: 100px;
+	height: 120px;
+	filter: grayscale(1);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.testimonial-pic img.active {
+	border-radius: 50%;
+	filter: grayscale(0);
+	margin: 5px;
+}
+
+
+.testimonial {
+	border: 1px solid #000;
+	position: relative;
+	min-height: 230px;
+}
+
+.testimonial .content {
+	display: none;
+}
+
+.testimonial .content a {
+	width: 60px;
+	height: 30px;
+	background-color: #298D40;
+	border: 1px solid black;
+	color: white;
+	border-radius: 10px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.testimonial .content.active {
+	display: block;
+}
+
+.testimonial .content p:nth-child(1) {
+	font-weight: bold;
+}
